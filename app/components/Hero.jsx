@@ -11,7 +11,7 @@ const Hero = () => {
             initial={{ opacity: 0, y: -50 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 1 }}
-     className="w-[80%] mx-auto  bg-base-200"
+     className="w-[80%] mx-auto  "
 
           >
                 <h1 className="text-4xl  text-center my-6 font-bold " >
@@ -52,7 +52,7 @@ const Hero = () => {
             <Image
               src="/images/about-image.png"
               alt="hero image"
-              className="absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+              className="absolute  transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
               width={300}
               height={300}
             />

@@ -16,7 +16,7 @@ const Contact = () => {
   };
 
   return (
-    <section className="min-h-screen bg-[#0f172a] text-white px-6 py-12 flex flex-col items-center">
+    <section className="min-h-screen bg-[#0f172a] w-[90%] mt-12 mx-auto text-white px-6 py-12 flex flex-col items-center">
       <motion.h2
         className="text-3xl font-bold text-center mb-8"
         initial={{ opacity: 0, y: -50 }}
