@@ -85,15 +85,15 @@ const Project = () => {
                   rel="noopener noreferrer"
                   className="flex gap-2 justify-center items-center px-4 py-2 bg-[#38bdf8] text-black font-semibold rounded-lg hover:bg-[#0ea5e9] transition"
                 >
-                 <FaEye className="text-gray-300" size={25}/> View
+                 <FaEye className="text-gray-200" size={25}/> View
                 </a>
                 <a
                   href={project.codeLink}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="px-4 py-2 bg-gray-700 text-white font-semibold rounded-lg hover:bg-gray-600 transition"
+                  className="flex gap-2 justify-center items-center px-4 py-2 bg-gray-700 text-white font-semibold rounded-lg hover:bg-gray-600 transition"
                 >
-                  <FaCode className="text-gray-300"/> Code
+                  <FaCode className="text-gray-400"/> Code
                 </a>
               </div>
             </motion.div>
