@@ -47,7 +47,7 @@ const services = [
 
 const Services = () => {
   return (
-    <section className="min-h-screen bg-[#0f172a] text-white px-6 py-12 mt-12 sm:w-[90%] mx-auto">
+    <section id="services" className="min-h-screen bg-[#0f172a] text-white px-6 py-12 mt-12 sm:w-[90%] mx-auto">
       <h2 className="text-3xl font-bold text-center mb-8">My Services</h2>
 
       <div className="grid md:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-6">

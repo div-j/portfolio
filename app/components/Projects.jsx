@@ -9,13 +9,13 @@ const projects = [
     title: "E-Commerce App",
     image: "/images/ecommerce.png",
     demoLink: "https://ecommerce-demo.com",
-    codeLink: "https://github.com/user/ecommerce-app",
+    codeLink: "https://github.com/div-j/full-stack-ecommerce-app",
   },
   {
     title: "Chat App",
     image: "/images/chap-app.jpg",
-    demoLink: "https://chatapp-demo.com",
-    codeLink: "https://github.com/user/chat-app",
+    demoLink: "https://fullstack-chat-app-4a4o.onrender.com/",
+    codeLink: "https://github.com/div-j/fullstack-chat-app",
   },
   {
     title: "Portfolio Website",
@@ -26,8 +26,8 @@ const projects = [
   {
     title: "Note Taking App",
     image: "/images/notetaking.jpg",
-    demoLink: "https://noteapp-demo.com",
-    codeLink: "https://github.com/user/portfolio",
+    demoLink: "https://note-keeping-app-azure.vercel.app/",
+    codeLink: "https://github.com/div-j/note-keeping-app",
   },
   {
     title: "Member Mangement App",
@@ -39,6 +39,12 @@ const projects = [
     title: "LMS App",
     image: "/images/lms.jpg",
     demoLink: "https://member-demo.com",
+    codeLink: "https://github.com/div-j/LMS",
+  },
+  {
+    title: "Netflix Clone App",
+    image: "/images/lms.jpg",
+    demoLink: "https://member-demo.com",
     codeLink: "https://github.com/user/portfolio",
   }
   
@@ -46,7 +52,7 @@ const projects = [
 
 const Project = () => {
   return (
-    <section className=" max-w-[90%] mx-auto bg-[#0f172a] text-white py-8 px-6 mt-16">
+    <section id="projects" className=" max-w-[90%] mx-auto bg-[#0f172a] text-white py-8 px-6 mt-16">
       <h2 className="text-3xl font-bold text-center mb-8 py-4">My Projects</h2>
 
       <div className="grid md:grid-cols-3 sm:grid-cols-2 grid-cols-1 items-center gap-6">

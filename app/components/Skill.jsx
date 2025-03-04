@@ -35,7 +35,7 @@ const Skills = () => {
   const [selectedCategory, setSelectedCategory] = useState("Programming");
 
   return (
-    <section className=" bg-[#0f172a] text-white px-6 py-12 mt-4">
+    <section id="skills" className=" bg-[#0f172a] text-white px-6 py-12 mt-4">
       <h2 className="text-3xl font-bold text-center mb-6">My Skills</h2>
 
       {/* Filter Buttons */}

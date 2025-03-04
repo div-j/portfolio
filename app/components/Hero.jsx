@@ -41,7 +41,10 @@ const Hero = () => {
         </p>
 
         {/* Download CV Button */}
-        <Link href="/path/to/your/cv.pdf" target="_blank" rel="noopener noreferrer">
+        <Link href="/divine_sd_cv.pdf"
+         download={"divine_cv.pdf"}
+         onClick={() => alert("CV Downloaded!")} 
+          rel="noopener noreferrer">
           <button className="px-6 py-3 text-lg font-semibold text-white bg-gradient-to-r from-[#8241c0] to-pink-400 rounded-lg shadow-lg transition-transform transform hover:scale-105">
             <span className="animate-pulse">📄</span> Download CV
           </button>

@@ -31,7 +31,7 @@ const Navbar = () => {
               animate={{ opacity: 1, x: 0 }}
               transition={{ duration: 0.3, delay: index * 0.1 }}
             >
-              <Link href={`/${item.toLowerCase()}`} className="hover:text-primary">
+              <Link href={`#${item.toLowerCase()}`} className="hover:text-primary">
                 {item}
               </Link>
             </motion.li>
@@ -45,13 +45,13 @@ const Navbar = () => {
           transition={{ duration: 0.5, delay: 0.4 }}
           className="flex space-x-4"
         >
-          <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
+          <a href="https://linkedin.com/in/divine-john" target="_blank" rel="noopener noreferrer">
             <FaLinkedin size={24} className="hover:text-primary cursor-pointer" />
           </a>
-          <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
+          <a href="https://facebook.com/divinejohn35" target="_blank" rel="noopener noreferrer">
             <FaFacebook size={24} className="hover:text-primary cursor-pointer" />
           </a>
-          <a href="https://github.com" target="_blank" rel="noopener noreferrer">
+          <a href="https://github.com/div-j" target="_blank" rel="noopener noreferrer">
             <FaGithub size={24} className="hover:text-primary cursor-pointer" />
           </a>
         </motion.div>
@@ -62,7 +62,11 @@ const Navbar = () => {
           whileTap={{ scale: 0.9 }}
           className="btn btn-primary ml-4 hidden md:inline-block bg-[#0ea5e9] "
         >
-          Let's Connect
+          <Link
+           href="https://wa.me/2347082155821" // Replace with your number
+           target="_blank"
+           rel="noopener noreferrer"
+          >Let's Connect</Link>
         </motion.button>
       </div>
     </motion.nav>
