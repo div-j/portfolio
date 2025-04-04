@@ -25,7 +25,7 @@ const Hero = () => {
           I'm a{" "}
           <span className="bg-clip-text text-transparent bg-gradient-to-r from-[#facc15] to-[#38bdf8] font-extrabold text-4xl md:text-5xl">
             <Typewriter
-              words={["Software Engineer", "AI Engineer", "Tech Innovator","Trainer"]}
+              words={["Software Engineer","Frontend Developer", "Backend Developer", "AI Engineer", "Tech Innovator","Trainer"]}
               loop={true}
               cursor
               cursorStyle="|"
