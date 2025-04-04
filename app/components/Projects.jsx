@@ -8,8 +8,14 @@ const projects = [
   {
     title: "E-Commerce App",
     image: "/images/ecommerce.png",
-    demoLink: "https://ecommerce-demo.com",
+    demoLink: "https://kofashion-frontend.onrender.com/",
     codeLink: "https://github.com/div-j/full-stack-ecommerce-app",
+  },
+  {
+    title: "Hotel",
+    image: "/images/hotels.png",
+    demoLink: "https://perennial-hotels.vercel.app/",
+    codeLink: "https://github.com/div-j/perennial_hotels",
   },
   {
     title: "Chat App",
@@ -20,33 +26,36 @@ const projects = [
   {
     title: "Portfolio Website",
     image: "/images/portfolio.webp",
-    demoLink: "https://portfolio-demo.com",
-    codeLink: "https://github.com/user/portfolio",
+    demoLink: "https://divinejohn-portfolio.vercel.app/",
+    codeLink: "https://github.com/div-j/portfolio",
   },
   {
     title: "Note Taking App",
     image: "/images/notetaking.jpg",
-    demoLink: "https://note-keeping-app-azure.vercel.app/",
-    codeLink: "https://github.com/div-j/note-keeping-app",
+    demoLink: "https://github.com/div-j/full-stack-note-taking--app/",
+    codeLink: "https://full-stack-note-taking-app.vercel.app/",
   },
+
   {
-    title: "Member Mangement App",
-    image: "/images/lms2.png",
-    demoLink: "https://member-demo.com",
-    codeLink: "https://github.com/user/portfolio",
-  },
-  {
-    title: "LMS App",
+    title: "AI-LMS App",
     image: "/images/lms.jpg",
-    demoLink: "https://member-demo.com",
+    demoLink: "https://smart-study-nine.vercel.app/",
     codeLink: "https://github.com/div-j/LMS",
+  },
+
+  {
+    title: "Music Player App",
+    image: "/images/music-player.png",
+    demoLink: "https://github.com/div-j/music-player",
+    codeLink: "https://github.com/div-j/music-player",
   },
   {
     title: "Netflix Clone App",
-    image: "/images/lms.jpg",
+    image: "/images/video.png",
     demoLink: "https://member-demo.com",
     codeLink: "https://github.com/user/portfolio",
-  }
+  },
+
   
 ];
 
