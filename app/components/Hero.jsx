@@ -11,21 +11,21 @@ const Hero = () => {
             initial={{ opacity: 0, y: -50 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 1 }}
-     className="w-[80%] mx-auto  "
+     className="w-[90%] mx-auto  "
 
           >
                 <h1 className="text-4xl  text-center my-6 font-bold " >
             Welcome to My Portfolio
           </h1>
-      <div className="flex flex-wrap items-center justify-between">
+      <div className="flex flex-col gap-20 md:flex-row items-center justify-between">
         
         {/* Left Section */}
-        <div className=" w-full md:w-[60%] text-center md:text-left">
+        <div className=" w-full md:w-[70%] text-center md:text-left mt-12">
         <h1 className="text-4xl md:text-5xl font-bold text-white leading-tight mb-4">
-          I'm a{" "}
-          <span className="bg-clip-text text-transparent bg-gradient-to-r from-[#facc15] to-[#38bdf8] font-extrabold text-4xl md:text-5xl">
+          
+          <span className="bg-clip-text text-transparent bg-gradient-to-r from-[#facc15] to-[#38bdf8] font-extrabold text-3xl md:text-4xl">
             <Typewriter
-              words={["Software Engineer","Frontend Developer", "Backend Developer", "AI Engineer", "Tech Innovator","Trainer"]}
+              words={["Software Engineer","Frontend Developer", "Backend Developer", "AI Engineer","Trainer"]}
               loop={true}
               cursor
               cursorStyle="|"
@@ -36,8 +36,8 @@ const Hero = () => {
           </span>
         </h1>
           <p className="text-lg text-gray-300 mb-6">
-          Passionate about leveraging <span className="text-[#facc15] font-semibold">technology</span> to drive innovation.
-          I create scalable software, analyze complex data, and build AI solutions that shape the future.
+          passionate about turning ideas into scalable web and mobile products. Whether building seamless user interfaces or engineering intelligent backend systems, I blend technology with purpose — creating solutions that are not just functional, but transformative.
+        
         </p>
 
         {/* Download CV Button */}
@@ -51,11 +51,11 @@ const Hero = () => {
         </Link>
         </div>
         {/* Right Section */}
-        <div className="hidden md:block rounded-full bg-[#181818] w-[40%] h-[250px] lg:w-[400px] lg:h-[400px] relative">
+        <div className="hidden md:flex rounded-full bg-[#181818] w-[50%] h-[250px]  lg:h-full  md:justify-center md:items-center ">
             <Image
               src="/images/about-image.png"
               alt="hero image"
-              className="absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+              className="rounde "
               width={300}
               height={300}
             />
