@@ -22,7 +22,7 @@ const Hero = () => {
         {/* Left Section */}
         <div className=" w-full md:w-[70%] text-center md:text-left mt-12">
         <h1 className="text-4xl md:text-5xl font-bold text-white leading-tight mb-4">
-          
+          I am a {" "}
           <span className="bg-clip-text text-transparent bg-gradient-to-r from-[#facc15] to-[#38bdf8] font-extrabold text-3xl md:text-4xl">
             <Typewriter
               words={["Software Engineer","Frontend Developer", "Backend Developer", "AI Engineer","Trainer"]}
@@ -36,7 +36,7 @@ const Hero = () => {
           </span>
         </h1>
           <p className="text-lg text-gray-300 mb-6">
-          passionate about turning ideas into scalable web and mobile products. Whether building seamless user interfaces or engineering intelligent backend systems, I blend technology with purpose — creating solutions that are not just functional, but transformative.
+          Passionate about turning ideas into scalable web and mobile products. Whether building seamless user interfaces or engineering intelligent backend systems, I blend technology with purpose — creating solutions that are not just functional, but transformative.
         
         </p>
 
